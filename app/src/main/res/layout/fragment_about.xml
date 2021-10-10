@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AboutFragment"
+    android:layout_marginTop="70dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="12dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABOUT MENTAL ILLNESS"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_margin="12dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A mental illness is a condition that affects a person's thinking, feeling, behavior or mood. These conditions deeply impact day-to-day living and may also affect the ability to relate to others. If you have — or think you might have — a mental illness, the first thing you must know is that you are not alone. Mental health conditions are far more common than you think, mainly because people don’t like to, or are scared to, talk about them. A mental health condition isn’t the result of one event. Research suggests multiple, linking causes. Genetics, environment and lifestyle influence whether someone develops a mental health condition. A stressful job or home life makes some people more susceptible, as do traumatic life events. Biochemical processes and circuits and basic brain structure may play a role, too. None of this means that you’re broken or that you, or your family, did something “wrong.” Mental illness is no one’s fault. And for many people, recovery — including meaningful roles in social life, school and work — is possible, especially when you start treatment early and play a strong role in your own recovery process."/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
